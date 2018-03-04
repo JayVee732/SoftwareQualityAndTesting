@@ -1,0 +1,10 @@
+<suiteConfig>
+    <Settings>
+        <Runner>fitnesse.fitserver.FitServer</Runner>
+    </Settings>
+
+    <ApplicationUnderTest>
+        <addNamespace>SoftwareQualityAndTesting</addNamespace>
+        <addAssembly>C:\Users\jamie\Source\Repos\SoftwareQualityAndTesting\SoftwareQualityAndTesting\bin\Release\SoftwareQualityAndTesting.dll</addAssembly>
+    </ApplicationUnderTest>
+</suiteConfig>

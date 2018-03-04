@@ -1,0 +1,16 @@
+!contents -R2 -g -p -f -h
+!path C:\Users\jamie\Source\Repos\SoftwareQualityAndTesting\SoftwareQualityAndTesting\bin\Release\SoftwareQualityAndTesting.dll
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer %p}
+!define TEST_RUNNER {E:\Testing_2018\fitnesse\dotnet2\Runner.exe}
+!|SoftwareQualityAndTesting.CalcPremiumClass|
+|age        |gender        |premium?        |
+|16         |female        |0               |
+|27         |female        |5               |
+|35         |female        |2.5             |
+|55         |female        |0.375           |
+|16         |male          |0               |
+|33         |male          |6               |
+|38         |male          |5               |
+|53         |male          |0.75            |
+|25         |mile          |0               |
+|52         |famele        |0               |

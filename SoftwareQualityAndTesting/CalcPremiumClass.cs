@@ -1,11 +1,15 @@
-﻿namespace SoftwareQualityAndTesting
+﻿using fit;
+
+namespace SoftwareQualityAndTesting
 {
-    public class CalcPremiumClass
+    public class CalcPremiumClass : ColumnFixture
     {
+        public int age;
+        public string gender;
+        public float premium;
+
         public float CalcPremium(int age, string gender)
         {
-            float premium;
-
             if (gender == "female")
             {
                 if ((age >= 18) && (age <= 30))

@@ -31,8 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="fit">
+      <HintPath>E:\Testing_2018\fitnesse\dotnet2\fit.dll</HintPath>
+    </Reference>
+    <Reference Include="fitSharp">
+      <HintPath>E:\Testing_2018\fitnesse\dotnet2\fitSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

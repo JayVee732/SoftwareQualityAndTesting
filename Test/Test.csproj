@@ -91,7 +91,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jamie\Source\Repos\SoftwareQualityAndTesting\SoftwareQualityAndTesting\SoftwareQualityAndTesting.csproj">
+    <ProjectReference Include="..\SoftwareQualityAndTesting\SoftwareQualityAndTesting.csproj">
       <Project>{295eac8c-b3c8-4857-9b57-38e65235e8a3}</Project>
       <Name>SoftwareQualityAndTesting</Name>
     </ProjectReference>
